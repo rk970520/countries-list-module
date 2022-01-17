@@ -1,1 +1,1 @@
-export const Countries = (obj: Array<object>) => obj;
+export const Countries = (obj: object[]) => obj;

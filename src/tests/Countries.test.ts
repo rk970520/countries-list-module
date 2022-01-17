@@ -1,5 +1,5 @@
 import { Countries } from '../index';
-var jsonData:Array<object> = require('../countries.json');
+import jsonData = require('../countries.json');
 test('Countries Test', () => {
   Countries(jsonData).forEach((country:object) => {
         expect(country).toMatchSnapshot({
